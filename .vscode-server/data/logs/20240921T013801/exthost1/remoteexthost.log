@@ -1,0 +1,39 @@
+2024-09-21 01:38:02.845 [info] Extension host with pid 7084 started
+2024-09-21 01:38:02.845 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock'
+2024-09-21 01:38:02.852 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-21 01:38:02.855 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': The pid 6333 appears to be gone.
+2024-09-21 01:38:02.855 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Deleting a stale lock.
+2024-09-21 01:38:02.862 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Lock acquired.
+2024-09-21 01:38:02.888 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-21 01:38:02.889 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-21 01:38:03.313 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-21 01:38:03.657 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 01:38:03.658 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 01:38:03.659 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 01:38:03.827 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-21 01:38:03.984 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-21 01:38:03.984 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-21 01:38:04.469 [info] Eager extensions activated
+2024-09-21 01:38:04.469 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 01:38:04.471 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 01:38:04.471 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 01:45:35.473 [info] Extension host with pid 8691 started
+2024-09-21 01:45:35.473 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock'
+2024-09-21 01:45:35.478 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-21 01:45:35.481 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': The pid 7084 appears to be gone.
+2024-09-21 01:45:35.482 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Deleting a stale lock.
+2024-09-21 01:45:35.495 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Lock acquired.
+2024-09-21 01:45:35.524 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-21 01:45:35.525 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-21 01:45:35.525 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-21 01:45:35.526 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 01:45:35.526 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 01:45:35.527 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-21 01:45:36.588 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-21 01:45:36.614 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-21 01:45:36.614 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-21 01:45:36.905 [info] Eager extensions activated
+2024-09-21 01:45:36.906 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 01:45:36.907 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 01:45:36.907 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 02:14:53.461 [error] Error: ELOOP: too many symbolic links encountered, stat '/run/udev/watch/5'

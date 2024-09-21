@@ -1,0 +1,31 @@
+2024-09-21 00:59:35.435 [info] 
+
+
+
+
+2024-09-21 00:59:35.448 [info] Extension host agent started.
+2024-09-21 00:59:35.543 [info] [127.0.0.1][b3c45361][ManagementConnection] New connection established.
+2024-09-21 00:59:35.975 [info] [127.0.0.1][181a3ae1][ExtensionHostConnection] New connection established.
+2024-09-21 00:59:35.983 [info] [127.0.0.1][181a3ae1][ExtensionHostConnection] <2392> Launched Extension Host Process.
+2024-09-21 01:04:54.421 [info] Getting Manifest... ritwickdey.liveserver
+2024-09-21 01:04:54.486 [info] Installing extension: ritwickdey.liveserver {"installPreReleaseVersion":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-21 01:04:56.905 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1230ms.
+2024-09-21 01:04:59.678 [info] Extracted extension to file:///root/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-09-21 01:04:59.688 [info] Renamed to /root/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-09-21 01:04:59.699 [info] Extension installed successfully: ritwickdey.liveserver file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:08:55.473 [info] Getting Manifest... wscats.cors-browser
+2024-09-21 01:08:55.686 [info] Installing extension: wscats.cors-browser {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-21 01:08:59.914 [info] Extension signature verification result for wscats.cors-browser: Success. Executed: true. Duration: 2635ms.
+2024-09-21 01:09:00.052 [info] Extracted extension to file:///root/.vscode-server/extensions/wscats.cors-browser-1.0.11: wscats.cors-browser
+2024-09-21 01:09:00.061 [info] Renamed to /root/.vscode-server/extensions/wscats.cors-browser-1.0.11
+2024-09-21 01:09:00.093 [info] Extension installed successfully: wscats.cors-browser file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:25:10.342 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:25:10.656 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9
+2024-09-21 01:25:10.973 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:25:12.708 [info] [127.0.0.1][181a3ae1][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:25:12.972 [info] Getting Manifest... ritwickdey.liveserver
+2024-09-21 01:25:13.169 [info] Installing extension: ritwickdey.liveserver {"installPreReleaseVersion":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-21 01:25:13.381 [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+2024-09-21 01:25:13.395 [info] Extension installed successfully: ritwickdey.liveserver file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:25:21.509 [info] [127.0.0.1][b3c45361][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 01:25:22.853 [info] [127.0.0.1][181a3ae1][ExtensionHostConnection] <2392> Extension Host Process exited with code: 0, signal: null.

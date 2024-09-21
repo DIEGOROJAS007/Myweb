@@ -1,0 +1,62 @@
+2024-09-21 01:38:01.556 [info] 
+
+
+
+
+2024-09-21 01:38:01.568 [info] Extension host agent started.
+2024-09-21 01:38:01.674 [info] [127.0.0.1][07c86752][ManagementConnection] New connection established.
+2024-09-21 01:38:02.102 [info] [127.0.0.1][f6371671][ExtensionHostConnection] New connection established.
+2024-09-21 01:38:02.117 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084> Launched Extension Host Process.
+2024-09-21 01:45:32.944 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084><stderr> 
+<--- Last few GCs --->
+
+[7084:0x7530660]   449927 ms: Scavenge (reduce) 1900.5 (1933.5) -> 1900.4 (1934.0) MB, 49.75 / 0.00 ms  (average mu = 0.597, current mu = 0.453) allocation failure; 
+[7084:0x7530660]   450665 ms: Mark-Compact (reduce) 1901.0 (1934.0) -> 1900.5 (1934.8) MB, 610.12 / 0.03 ms  (+ 318.4 ms in 249 steps since start of marking, biggest step 26.8 ms, walltime since start of marking 1079 ms) (average mu = 0.503, current mu = 
+
+<--- JS stacktrace --->
+
+
+2024-09-21 01:45:32.964 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084><stderr> FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0xb80c98 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 2: 0xeede90 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 3: 0xeee177 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 4: 0x10ffd15  [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 5: 0x1117b98 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 6: 0x10edcb1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 7: 0x10eee45 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+ 8: 0x10cb566 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+
+2024-09-21 01:45:32.967 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084><stderr>  9: 0x10bd194 v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawWithImmortalMap(int, v8::internal::AllocationType, v8::internal::Map, v8::internal::AllocationAlignment) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+
+2024-09-21 01:45:32.969 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084><stderr> 10: 0x10bf976 v8::internal::FactoryBase<v8::internal::Factory>::NewRawOneByteString(int, v8::internal::AllocationType) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+
+2024-09-21 01:45:32.971 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084><stderr> 11: 0x1410c57 v8::internal::String::SlowFlatten(v8::internal::Isolate*, v8::internal::Handle<v8::internal::ConsString>, v8::internal::AllocationType) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+
+2024-09-21 01:45:32.977 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084><stderr> 12: 0x153f81a v8::internal::Runtime_StringSplit(int, unsigned long*, v8::internal::Isolate*) [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+13: 0x1961ef6  [/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node]
+
+2024-09-21 01:45:33.263 [info] [127.0.0.1][f6371671][ExtensionHostConnection] <7084> Extension Host Process exited with code: null, signal: SIGABRT.
+2024-09-21 01:45:34.311 [error] [127.0.0.1][f6371671][ExtensionHostConnection] Unknown reconnection token (seen before).
+2024-09-21 01:45:34.987 [info] [127.0.0.1][657820ef][ExtensionHostConnection] New connection established.
+2024-09-21 01:45:35.030 [info] [127.0.0.1][657820ef][ExtensionHostConnection] <8691> Launched Extension Host Process.
+2024-09-21 01:47:41.257 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/7727/net/ipconfig' failed: No such file or directory (EUNKNOWN) (path: /)
+2024-09-21 01:47:41.260 [error] [File Watcher (universal)] inotify_add_watch on '//proc/7727/net/ipconfig' failed: No such file or directory
+2024-09-21 02:14:45.843 [info] [127.0.0.1][657820ef][ExtensionHostConnection] The client has reconnected.
+2024-09-21 02:14:51.845 [info] [127.0.0.1][07c86752][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 02:14:54.529 [info] [127.0.0.1][fc627771][ManagementConnection] New connection established.
+2024-09-21 02:14:55.295 [info] [127.0.0.1][53771f1a][ExtensionHostConnection] New connection established.
+2024-09-21 02:14:55.307 [info] [127.0.0.1][53771f1a][ExtensionHostConnection] <19037> Launched Extension Host Process.
+2024-09-21 02:15:12.634 [info] [127.0.0.1][fc627771][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 02:15:14.357 [info] [127.0.0.1][7fde8629][ManagementConnection] New connection established.
+2024-09-21 02:15:14.627 [info] [127.0.0.1][aef2fa72][ExtensionHostConnection] New connection established.
+2024-09-21 02:15:14.632 [info] [127.0.0.1][aef2fa72][ExtensionHostConnection] <19239> Launched Extension Host Process.
+2024-09-21 02:15:19.976 [info] [127.0.0.1][53771f1a][ExtensionHostConnection] <19037> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 02:15:53.264 [info] [127.0.0.1][7fde8629][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 02:15:53.284 [info] [127.0.0.1][aef2fa72][ExtensionHostConnection] <19239> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 02:15:55.091 [info] [127.0.0.1][2da5d8ef][ManagementConnection] New connection established.
+2024-09-21 02:15:55.369 [info] [127.0.0.1][e9057cc8][ExtensionHostConnection] New connection established.
+2024-09-21 02:15:55.372 [info] [127.0.0.1][e9057cc8][ExtensionHostConnection] <19413> Launched Extension Host Process.
+2024-09-21 02:18:30.627 [info] [127.0.0.1][2da5d8ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 02:18:30.670 [info] [127.0.0.1][e9057cc8][ExtensionHostConnection] <19413> Extension Host Process exited with code: 0, signal: null.

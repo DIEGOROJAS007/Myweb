@@ -1,0 +1,18 @@
+2024-09-21 02:14:57.143 [info] Extension host with pid 19037 started
+2024-09-21 02:14:57.143 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock'
+2024-09-21 02:14:57.167 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-21 02:14:57.177 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-21 02:14:57.179 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-21 02:14:57.345 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27/vscode.lock': The lock does not look stale, elapsed: 147 ms, giving up.
+2024-09-21 02:14:57.358 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27-1/vscode.lock': Lock acquired.
+2024-09-21 02:14:57.591 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-21 02:14:57.867 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-21 02:14:57.877 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-21 02:14:57.877 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-21 02:14:58.025 [info] Eager extensions activated
+2024-09-21 02:14:58.026 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 02:14:58.026 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 02:14:58.026 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-09-21 02:15:18.995 [info] Extension host terminating: received terminate message from renderer
+2024-09-21 02:15:18.996 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/004e33f01e5b915cdd99a687c3386a27-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-21 02:15:19.696 [info] Extension host with pid 19037 exiting with code 0

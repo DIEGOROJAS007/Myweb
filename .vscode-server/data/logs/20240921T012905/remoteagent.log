@@ -1,0 +1,31 @@
+2024-09-21 01:29:05.912 [info] 
+
+
+
+
+2024-09-21 01:29:05.912 [info] Extension host agent started.
+2024-09-21 01:29:06.003 [info] [127.0.0.1][9aac3c23][ManagementConnection] New connection established.
+2024-09-21 01:29:06.345 [info] [127.0.0.1][77a57067][ExtensionHostConnection] New connection established.
+2024-09-21 01:29:06.353 [info] [127.0.0.1][77a57067][ExtensionHostConnection] <6333> Launched Extension Host Process.
+2024-09-21 01:31:08.587 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:31:28.854 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:31:49.045 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:32:09.467 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:32:29.692 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:32:50.030 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:33:10.289 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:33:29.889 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:33:29.911 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9
+2024-09-21 01:33:30.184 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:33:31.585 [info] Getting Manifest... ritwickdey.liveserver
+2024-09-21 01:33:31.658 [info] Installing extension: ritwickdey.liveserver {"installPreReleaseVersion":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-21 01:33:31.726 [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+2024-09-21 01:33:31.744 [info] Extension installed successfully: ritwickdey.liveserver file:///root/.vscode-server/extensions/extensions.json
+2024-09-21 01:34:00.895 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:34:21.086 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:36:29.758 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:36:50.072 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:37:04.033 [info] [127.0.0.1][77a57067][ExtensionHostConnection] <6333> [0mGET /favicon.ico [33m404[0m 10547.454 ms - 150[0m
+
+2024-09-21 01:37:43.344 [info] [127.0.0.1][77a57067][ExtensionHostConnection] The client has reconnected.
+2024-09-21 01:37:52.402 [info] [127.0.0.1][9aac3c23][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
